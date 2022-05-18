@@ -1,7 +1,7 @@
-# Markdown 🧑‍💻
+# Markdown ⚡
 Dica e estudos sobre essa linguagem de marcação!
 
-### O que é Markdown?
+### O que é Markdown? 👨🏻‍💻
 Markdown é uma linguagem de marcação leve que escreve documentos em texto simples **(fácil de ler, fácil de escrever, fácil de mudar)** e eventualmente publicado em formato HTML.
 O markdown também pode ser entendido como uma ferramenta que converte um idioma escrito com sintaxe de marcação em conteúdo HTML, também pode se utilizar algumas tags html em arquivos markdown.
 
@@ -222,6 +222,7 @@ Efeito:
 ---
 
 <h2 id="Tabela">Tabela</h2>
+
 #### **primeiro estilo da tabela**
 
 ```markdown
