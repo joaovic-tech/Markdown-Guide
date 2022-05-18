@@ -209,6 +209,20 @@ Efeito:
 
 <h2 id="ImgTabelas">Imagens dentro das tabelas</h2>
 
+```markdown
+<h4 align="center">🌙Cartoon🔆</h4>
+
+| Coluna 1                                     | Coluna 2                                            |
+|:-------------------------------------------------:|:-----------------------------------------------:|
+| ![](https://avatars.githubusercontent.com/u/79641024?v=4)  | ![](https://avatars.githubusercontent.com/u/79641024?v=4)         |
+| Cartoon 1                                   | Cartoon 2                                 |
+| ![](https://avatars.githubusercontent.com/u/79641024?v=4) | ![](https://avatars.githubusercontent.com/u/79641024?v=4) |
+| Cartoon 3                                     | Cartoon 4                                        |
+| ![](https://avatars.githubusercontent.com/u/79641024?v=4)  | ![](https://avatars.githubusercontent.com/u/79641024?v=4)     |
+
+```
+
+Efeito:
 <h4 align="center">🌙Cartoon🔆</h4>
 
 | Coluna 1                                     | Coluna 2                                            |
