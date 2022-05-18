@@ -1,22 +1,31 @@
-# Markdown 😉
+# Markdown 🧑‍💻
 Dica e estudos sobre essa linguagem de marcação!
 
 ### O que é Markdown?
 Markdown é uma linguagem de marcação leve que escreve documentos em texto simples **(fácil de ler, fácil de escrever, fácil de mudar)** e eventualmente publicado em formato HTML.
-O markdown também pode ser entendido como uma ferramenta que converte um idioma escrito com sintaxe de marcação em conteúdo HTML, também pode se utilizar tags html em arquivos markdown porem não vou aborda aqui.
+O markdown também pode ser entendido como uma ferramenta que converte um idioma escrito com sintaxe de marcação em conteúdo HTML, também pode se utilizar algumas tags html em arquivos markdown.
 
 ---
 
-#### Links para estilizar melhor o seu Markdown
+#### Links para estilizar melhor o seu Markdown 👊
 
 + [Pegar emojis](https://emojipedia.org/)
 + [Dev Icons](https://devicon.dev/)
 
+### Atalhos 😉
+
+| 1º | 2º | 3º |
+|----|----|----|
+| [Citação](#Citação) | [Fontes](#Fontes) | [Links](#Links) |
+| [Título](#Título) | [Lista](#Lista) | [Imagens](#Imagens) |
+| [Dividers](#Dividers) | [CheckBox](#CheckBox) | [Imagens dentro das tabelas](#ImgTabelas) |
+| [Barra Invertida](#BarraInvertida) | [Texto de seta](#SetaText) | [Tabela](#Tabela) |
+
 ---
 
-# Markdown syntax
+# Markdown syntax 💻
 
-## **Citação**
+<h2 id="Citação">Citação</h2>
 
 ```markdown
 > texto
@@ -29,7 +38,7 @@ Efeito:
 
 ---
 
-## **Título**
+<h2 id="Título">Título</h2>
 
 #### use '#' para representar as Headings nível 1-6.
 
@@ -54,7 +63,7 @@ Efeito:
 
 #### Note que quando temos um ou dois `#` aparece uma linha em baixo do título.
 
-## **Dividers**
+<h2 id="Dividers">Dividers</h2>
 são as linhas grandes para dividir as sessões
 
 ```markdown
@@ -63,12 +72,12 @@ ou
 ---
 ```
 
-## **Backslash** _(Barra Invertido)_ **`\`**
+<h2 id="BarraInvertida">Backslash** _(Barra Invertido)_ **`\`*</h2>
 A **Barra Invertido**. faz com que você consiga mostrar alguma sintaxe do markdown.
 
 ---
 
-## **Fontes**
+<h2 id="Fontes">Fontes</h2>
 adicione '**' ou '__' a cada lado da ênfase, tais como:
 
 | FONTE | SINTAXE | EFEITO |
@@ -79,7 +88,7 @@ adicione '**' ou '__' a cada lado da ênfase, tais como:
 
 ---
 
-## **lista**
+<h2 id="Lista">lista</h2>
 marque listas não ordenadas com '·', '+'ou '-' tais como:
 
 ```markdown
@@ -89,43 +98,55 @@ marque listas não ordenadas com '·', '+'ou '-' tais como:
 ```
 
 Efeito:
-\+
-> + primeiro item
-> + segundo item
-> + terceiro item
-\*
-> * primeiro item
-> * segundo item
-> * terceiro item
-\-
-> - item 1
-> - item 2
-> - item 3
 
+> + primeiro item usando o '+'
+> + segundo item usando o `+`
+> + terceiro item usando o `+`
+
+> * primeiro item usando o `*`
+> * segundo item usando o `*`
+> * terceiro item usando o `*`
+
+> - item 1 usando o `-`
+> - item 2 usando o `-`
+> - item 3 usando o `-`
 ---
 
-## **Lista Checkbox**
+<h2 id="CheckBox">Checkbox</h2>
 
 ```markdown
-+ [ ] Itens
-+ [x] Itens
- + [x] Itens 2
-+ [ ] Itens
+- [ ] Itens
+- [x] Itens
+ - [x] Itens 2
+- [ ] Itens
 ```
 
 Efeito:
 
-> + [ ] Itens
-> + [x] Itens
->   + [x] Itens
-> + [ ] Itens
+> - [ ] Itens
+> - [x] Itens
+>   - [x] Itens
+> - [ ] Itens
 
 ---
 
-## **Codes**
+<h2 id="SetaText">Texto de seta:</h2>
+
+<details>
+  <summary>Título</summary>
+  <p>Conteúdo</p>
+</details>
+
+---
+
+<h2 id="Codes">Codes</h2>
 
 ### Inline Code
+Run terminal \`npm install\` or \`yarn install\`
+
+Efeito:
 Run terminal `npm install` or `yarn install`
+
 
 ### Code block
 
@@ -142,7 +163,7 @@ alert('Hello World!')
 ---
 
 
-## **Links**
+<h2 id="Links">Links</h2>
 links podem ser gerados em duas formas: linha em linha e referência.
 
 
@@ -160,22 +181,23 @@ Efeito:
 **referências**:
 
 ```markdown
-[Biblioteca Markdown 1][1] 
-[Biblioteca Markdown  2][2]
-[1]:https:://github.com/joaovic-tech/Markdown "Markdown"
-[2]:https:://github.com/joaovic-tech/Markdown "Markdown"
+> [Dicas de Markdown 1][1] 
+> [Dicas de Markdown 2][2]
+
+[1]: https:://github.com/joaovic-tech/markdown "Markdown"
+[2]: https:://github.com/joaovic-tech/markdown "Markdown"
 ```
 
 Efeito:
+> [Dicas de Markdown 1][1] 
+> [Dicas de Markdown 2][2]
 
-[Biblioteca Markdown 1][1] 
-[Biblioteca Markdown  2][2]
-[1]:https:://github.com/joaovic-tech/Markdown "Markdown"
-[2]:https:://github.com/joaovic-tech/Markdown "Markdown"
+[1]: https:://github.com/joaovic-tech/markdown "Markdown"
+[2]: https:://github.com/joaovic-tech/markdown "Markdown"
 
 ---
 
-## **Imagens**
+<h2 id="Imagens">Imagens</h2>
 adicione uma imagem de forma semelhante a um link, basta adicionar um '!' antes do []
 
 ```markdown
@@ -185,9 +207,21 @@ adicione uma imagem de forma semelhante a um link, basta adicionar um '!' antes 
 Efeito:
 > ![My cartton](https://avatars.githubusercontent.com/u/79641024?v=4)
 
+<h2 id="ImgTabelas">Imagens dentro das tabelas</h2>
+
+<h4 align="center">🌙Cartoon🔆</h4>
+
+| Coluna 1                                     | Coluna 2                                            |
+|:-------------------------------------------------:|:-----------------------------------------------:|
+| ![](https://avatars.githubusercontent.com/u/79641024?v=4)  | ![](https://avatars.githubusercontent.com/u/79641024?v=4)         |
+| Cartoon 1                                   | Cartoon 2                                 |
+| ![](https://avatars.githubusercontent.com/u/79641024?v=4) | ![](https://avatars.githubusercontent.com/u/79641024?v=4) |
+| Cartoon 3                                     | Cartoon 4                                        |
+| ![](https://avatars.githubusercontent.com/u/79641024?v=4)  | ![](https://avatars.githubusercontent.com/u/79641024?v=4)     |
+
 ---
 
-## **Tabela**
+<h2 id="Tabela">Tabela</h2>
 #### **primeiro estilo da tabela**
 
 ```markdown
