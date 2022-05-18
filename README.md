@@ -52,38 +52,30 @@ Efeito:
 > + ##### Título
 > + ###### Título
 
-#### Note que quando temo s um `#` aparece uma linha em baixo do título.
+#### Note que quando temos um ou dois `#` aparece uma linha em baixo do título.
 
 ## **Dividers**
 são as linhas grandes para dividir as sessões
 
 ```markdown
 ***
+ou
 ---
 ```
 
-## **backslash** _(Barra Invertido)_ **'\'**
-é equivalente ao efeito **Barra Invertido**. faça o símbolo normal.
+## **Backslash** _(Barra Invertido)_ **`\`**
+A **Barra Invertido**. faz com que você consiga mostrar alguma sintaxe do markdown.
 
 ---
 
 ## **Fontes**
 adicione '**' ou '__' a cada lado da ênfase, tais como:
 
-```markdown
-| fonte | sintaxe |
-|:-|-:|
-| italic | _italic_ |
-| bold | **bold** |
-| bold | __bold__ |
-```
-
-Efeito:
-> | fonte | sintaxe |
-> |:-|-:|
-> | italic | _italic_ |
-> | bold | **bold** |
-> | bold | __bold__ |
+| FONTE | SINTAXE | EFEITO |
+|-------|---------|--------|
+| italic | \_italic_ | _italic_ |
+| bold | \**bold** |  **bold** |
+| bold | \__bold__ |  __bold__ |
 
 ---
 
@@ -92,19 +84,20 @@ marque listas não ordenadas com '·', '+'ou '-' tais como:
 
 ```markdown
 +  Item
-.  Item
+*  Item
 -  Item
 ```
 
 Efeito:
+\+
 > + primeiro item
 > + segundo item
 > + terceiro item
-
-> . primeiro item
-> . segundo item
-> . terceiro item
-
+\*
+> * primeiro item
+> * segundo item
+> * terceiro item
+\-
 > - item 1
 > - item 2
 > - item 3
@@ -114,17 +107,18 @@ Efeito:
 ## **Lista Checkbox**
 
 ```markdown
-[ ] Itens
-[x] Itens
-  [x] Itens 2
-[ ] Itens
++ [ ] Itens
++ [x] Itens
+ + [x] Itens 2
++ [ ] Itens
 ```
 
 Efeito:
-> [] Itens
-> [x] Itens
->   [x] Itens
-> [] Itens
+
+> + [ ] Itens
+> + [x] Itens
+>   + [x] Itens
+> + [ ] Itens
 
 ---
 
@@ -134,29 +128,25 @@ Efeito:
 Run terminal `npm install` or `yarn install`
 
 ### Code block
-##### JavaScript
+
+> \`\`\`js <br/>
+> alert('Hello World!') <br/>
+> \`\`\`
+
+Efeito:
 ```js
 alert('Hello World!')
 ```
-##### Python
-```py
-print('Hello World!')
-```
-##### C
-```C
-#include <stdio.h>
 
-int main(){
-  printf("Hello World!");
-  return 0;
-}
-```
 
 ---
 
 
 ## **Links**
 links podem ser gerados em duas formas: linha em linha e referência.
+
+
+**Linha em linha**:
 
 ```markdown
 [Biblioteca Markdown do João](https:://github.com/joaovic-tech/markdown "Markdown")
@@ -172,20 +162,21 @@ Efeito:
 ```markdown
 [Biblioteca Markdown 1][1] 
 [Biblioteca Markdown  2][2]
-[1\]:https:://github.com/joaovic-tech/Markdown "Markdown"
-[2\]:https:://github.com/joaovic-tech/Markdown "Markdown"
+[1]:https:://github.com/joaovic-tech/Markdown "Markdown"
+[2]:https:://github.com/joaovic-tech/Markdown "Markdown"
 ```
 
 Efeito:
-> [Biblioteca Markdown 1][1]    
-> [Biblioteca Markdown 2][2]
-> [1]: https:://github.com/joaovic-tech/Markdown "Markdown"
-> [2]: https:://github.com/joaovic-tech/Markdown "Markdown"
+
+[Biblioteca Markdown 1][1] 
+[Biblioteca Markdown  2][2]
+[1]:https:://github.com/joaovic-tech/Markdown "Markdown"
+[2]:https:://github.com/joaovic-tech/Markdown "Markdown"
 
 ---
 
 ## **Imagens**
-adicione uma imagem de forma semelhante a um link, basta adicionar um '!'
+adicione uma imagem de forma semelhante a um link, basta adicionar um '!' antes do []
 
 ```markdown
 ![My cartton](https://avatars.githubusercontent.com/u/79641024?v=4)
@@ -196,7 +187,7 @@ Efeito:
 
 ---
 
-## **Tabela e outros**
+## **Tabela**
 #### **primeiro estilo da tabela**
 
 ```markdown
