@@ -232,6 +232,7 @@ Efeito:
 | ![](https://avatars.githubusercontent.com/u/79641024?v=4) | ![](https://avatars.githubusercontent.com/u/79641024?v=4) |
 | Cartoon 3                                     | Cartoon 4                                        |
 | ![](https://avatars.githubusercontent.com/u/79641024?v=4)  | ![](https://avatars.githubusercontent.com/u/79641024?v=4)     |
+| Cartoon 5                                     | Cartoon 6                                        |
 
 ---
 
